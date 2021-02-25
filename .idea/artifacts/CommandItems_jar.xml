@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="CommandItems:jar">
+    <output-path>$PROJECT_DIR$/../../../../../../TestingServer1.16.5/plugins</output-path>
+    <root id="archive" name="CommandItems.jar">
+      <element id="module-output" name="CommandItems" />
+    </root>
+  </artifact>
+</component>

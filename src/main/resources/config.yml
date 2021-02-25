@@ -1,0 +1,21 @@
+# these are the items that will be given to a player once they join
+# MAKE SURE THE SLOTS AND ITEM NAMES ARE ALL DIFFERENT! (Can be numbers from 1 - 36)
+items:
+  # this is where the item name goes
+  itemname:
+    # this is the slot
+    slot: 9
+    # this is the item type (full list in plugin folder)
+    type: "DIAMOND_AXE"
+    # this is where the commands go
+    commands:
+      - say hi
+      - tp ~ 10 ~
+      - me hello
+    # this is any metadata you want to add to the item
+    metadata:
+      display-name: "&cS&6o&em&ae&bth&9in&5g"
+      # set to true to see enchantment glow
+      glow: true
+      lore:
+        - "&0S&1o&2m&3e&4t&5h&6i&7n&8g &9g&ao&be&cs &dh&ee&fr&0e"

@@ -1,0 +1,13 @@
+name: CommandItems
+main: io.github.tacticalaxis.commanditems.CommandItems
+version: 1.0
+description: A command items plugin
+author: NathanD256
+prefix: CI
+api-version: 1.16
+commands:
+  commanditems:
+    aliases: [ci]
+    description: Reload config
+    permission: commanditems.reload
+    permission-message: "§cNo Permission!"
